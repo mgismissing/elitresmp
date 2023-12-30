@@ -25,6 +25,10 @@
             header h1 {
                 font-size: 56px;
             }
+
+            separator {
+                padding: 20px;
+            }
     
             nav {
                 background-color: #d17c7c;
@@ -32,6 +36,8 @@
                 padding: 10px;
                 text-align: center;
                 transition: background-color 0.5s, color 0.5s;
+                position: sticky;
+                top: 0;
             }
     
             nav a {
@@ -42,6 +48,10 @@
     
             section {
                 padding: 20px;
+            }
+
+            section a {
+                color: inherit;
             }
     
             footer {
@@ -57,7 +67,7 @@
     
             /* Theme Selector */
             .theme-selector {
-                position: fixed;
+                position: absolute;
                 top: 10px;
                 right: 10px;
                 display: flex;
@@ -180,7 +190,20 @@
             </p>
         </section>
 
-        <section id="discord"></section>
+        <section id="discord">
+            <h2>Discord</h2>
+            <p>Entra nella community Discord ufficiale di ElitreSMP, dove troverai aggiornamenti e comunicazioni che riguardano il server.</p>
+            <p><a href="https://discord.gg/FFYytVw3u3">Entra su ElitreSMP</a></p>
+        </section>
+
+        <section id="server">
+            <h2>Server Minecraft</h1>
+            <p>Entra nel server di Minecraft!</p>
+            <p>Java:<br>IP &RightArrow; mc.empties.it</p>
+            <p>Bedrock:<br>IP &RightArrow; mc.empties.it<br>Porta &RightArrow; 45100</p>
+        </section>
+
+        <separator></separator>
 
         <footer>
             &copy; 2023 ElitreSMP. Tutti i diritti riservati.
